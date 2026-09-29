@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="QezraTheGreat — Minecraft developer portfolio.">
+  <title>QezraTheGreat — Minecraft Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <header class="nav wrap">
+    <a class="brand" href="#home"><span class="brand-dot"></span>QezraTheGreat</a>
+    <nav id="nav-links"><a href="#about">About</a><a href="#work">Work</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+    <a class="nav-cta" href="#contact">Hire Me <span>↗</span></a>
+    <button class="menu" id="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="home" class="wrap">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span><span id="availability">Open to select projects</span></div>
+        <p class="kicker">MINECRAFT DEVELOPER</p>
+        <h1>Building <span>better</span><br>servers & systems.</h1>
+        <p class="hero-text" id="intro">I build Minecraft server experiences, practical systems, and community tools.</p>
+        <div class="actions"><a class="btn primary" href="#projects">View My Work ↗</a><a class="btn ghost" href="#contact">Let's Talk</a></div>
+        <div class="mini-stats"><div><strong>✦</strong><span>Server Systems</span></div><div><strong>⌘</strong><span>Web Tools</span></div><div><strong>◇</strong><span>Community Builds</span></div></div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orb orb-a"></div><div class="orb orb-b"></div>
+        <div class="code-card"><div class="window"><i></i><i></i><i></i><span>server.java</span></div>
+<pre><code><span class="purple">public class</span> <span class="green">Qezra</span> {
+  <span class="purple">public void</span> <span class="blue">build</span>() {
+    server.<span class="green">create</span>(<span class="orange">"your idea"</span>);
+    systems.<span class="green">deploy</span>();
+  }
+}</code></pre></div>
+        <div class="avatar-card"><div class="avatar-placeholder">Q</div><div><small>DEVELOPER</small><strong>QEZRATHEGREAT</strong></div></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head reveal"><span>01</span><div><p>ABOUT ME</p><h2>Developer behind the work.</h2></div></div>
+      <div class="about-grid"><div class="about-copy reveal"><p id="about-text">Minecraft developer focused on server systems, configuration, community experiences, and web tools.</p><p>I care about reliable setups, clear communication, and making features useful for the players and staff who use them.</p></div>
+      <div class="experience-card reveal"><div><span>Focus</span><strong>Minecraft</strong></div><div><span>Network Tools</span><strong>Velocity</strong></div><div><span>Web Stack</span><strong>HTML / CSS / JS</strong></div><div><span>Approach</span><strong>Build & Improve</strong></div></div></div>
+    </section>
+
+    <section id="work" class="section"><div class="section-head reveal"><span>02</span><div><p>CURRENT WORK</p><h2>Currently building.</h2></div></div>
+      <div class="cards three"><article class="server-card reveal"><div class="card-top"><div class="server-logo">PM</div><span class="status"><i></i> Project</span></div><h3>PeakyMC</h3><p>Minecraft network project focused on server experiences, configuration, and community features.</p><div class="tags"><em>Network</em><em>Server Systems</em></div><a href="#projects" class="text-link">View details ↗</a></article>
+      <article class="server-card reveal"><div class="card-top"><div class="server-logo">WEB</div><span class="status"><i></i> Building</span></div><h3>Web Experiences</h3><p>Responsive pages and tools for Minecraft communities and creators.</p><div class="tags"><em>Frontend</em><em>Backend</em></div><a href="#contact" class="text-link">Discuss a project ↗</a></article>
+      <article class="server-card reveal"><div class="card-top"><div class="server-logo">SYS</div><span class="status"><i></i> Ongoing</span></div><h3>Custom Systems</h3><p>Practical gameplay configurations, integrations, and server-side improvements.</p><div class="tags"><em>Plugins</em><em>Configuration</em></div><a href="#contact" class="text-link">Discuss a project ↗</a></article></div>
+    </section>
+
+    <section class="section"><div class="section-head reveal"><span>03</span><div><p>EXPERIENCE</p><h2>A timeline of the journey.</h2></div></div>
+      <div class="timeline"><div class="timeline-item reveal"><span class="year">NOW</span><div><h3>QezraTheGreat</h3><p>Minecraft Developer · Ongoing</p><span>Building and improving Minecraft server projects, community tools, and web experiences.</span></div></div><div class="timeline-item reveal"><span class="year">2026</span><div><h3>PeakyMC</h3><p>Server & Network Project</p><span>Working on server configuration, network setup, and player-facing features.</span></div></div></div>
+    </section>
+
+    <section id="projects" class="section"><div class="section-head reveal"><span>04</span><div><p>SELECTED PROJECTS</p><h2>Work worth showing.</h2></div></div><div class="project-grid" id="project-grid"></div></section>
+    <section id="skills" class="section"><div class="section-head reveal"><span>05</span><div><p>SKILLS</p><h2>Tools I work with.</h2></div></div><div class="skill-grid reveal" id="skill-grid"></div></section>
+    <section class="section services"><div class="section-head reveal"><span>06</span><div><p>SERVICES</p><h2>What I can build.</h2></div></div><div class="service-grid" id="service-grid"></div></section>
+
+    <section class="section activity"><div class="section-head reveal"><span>07</span><div><p>WORK PHILOSOPHY</p><h2>Build with purpose.</h2></div></div><div class="activity-list"><div class="activity-item reveal"><i></i><div><strong>Player-first experiences</strong><span>Simple, intuitive systems that make sense in-game.</span></div></div><div class="activity-item reveal"><i></i><div><strong>Maintainable configuration</strong><span>Organized setups that are easier to troubleshoot and grow.</span></div></div><div class="activity-item reveal"><i></i><div><strong>Clear communication</strong><span>Scope, updates, and handover details kept understandable.</span></div></div></div></section>
+
+    <section id="contact" class="section contact"><div class="contact-box reveal"><div><p class="kicker">LET'S BUILD SOMETHING</p><h2>Have a project<br>in mind?</h2><p>Tell me what you're planning for your Minecraft server or community.</p><div class="contact-links"><a id="discord-link" href="#"><span>Discord</span><b>QezraTheGreat ↗</b></a><a id="email-link" href="#"><span>Email</span><b>Use the contact form ↗</b></a></div></div>
+      <form id="contact-form" class="contact-form"><label>Your name<input name="name" required minlength="2" maxlength="80" placeholder="Minecraft username or name"></label><label>Email address<input name="email" type="email" required maxlength="160" placeholder="you@example.com"></label><label>Project details<textarea name="message" required minlength="10" maxlength="3000" rows="5" placeholder="What would you like to build?"></textarea></label><div class="hp" aria-hidden="true"><label>Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label></div><button class="btn primary" type="submit" id="submit-btn">Send Message ↗</button><p id="form-status" role="status" aria-live="polite"></p></form>
+    </div></section>
+  </main>
+  <footer class="footer wrap"><div><strong>QezraTheGreat</strong><span>Minecraft Developer</span></div><span>© <span id="year"></span> QezraTheGreat. All rights reserved.</span></footer>
+  <script src="/script.js"></script>
+</body></html>
